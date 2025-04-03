@@ -1,0 +1,123 @@
+.chat-wrapper {
+    /* Augmentation de la taille de la police de base */
+    font: bold 16px/normal 'lucida grande', tahoma, verdana, arial, sans-serif;
+    background: #00a6bb;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 2px 0px #00000017;
+    max-width: 750px; /* Augmenté pour agrandir la zone de chat */
+    min-width: 650px; /* Augmenté pour agrandir la zone de chat */
+}
+
+#message-box {
+    width: 97%;
+    display: inline-block;
+    height: 350px; /* Augmenté pour agrandir la zone de chat */
+    background: #fff;
+    box-shadow: inset 0px 0px 2px #00000017;
+    overflow: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.user-panel {
+    margin-top: 10px;
+}
+
+input[type=text] {
+    border: none;
+    padding: 8px 8px;
+    box-shadow: 2px 2px 2px #0000001c;
+    font-size: 16px;
+}
+
+input[type=text]#name {
+    width: 20%;
+}
+
+input[type=text]#message {
+    width: 60%;
+}
+
+button#send-message {
+    border: none;
+    padding: 8px 15px;
+    background: #11e0fb;
+    box-shadow: 2px 2px 2px #0000001c;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Styles pour la zone de gauche avec taille réduite */
+.room-link, .search-link {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.room-link a, .search-link a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: block;
+    font-size: 24px; /* Taille réduite par rapport à l'original de 32px */
+}
+
+/* Styles généraux pour le reste du corps de la page */
+body {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 40px; /* Doublé la taille du titre en haut */
+}
+
+.user_name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Style pour la page de recherche */
+#keyword {
+    font-size: 16px;
+    padding: 8px;
+    width: 70%;
+}
+
+#submit {
+    font-size: 16px;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#filteredmsg {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Styles pour centrer l'ensemble */
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Ajouter du padding pour améliorer l'espacement */
+.col-6 {
+    padding: 15px;
+}
+
+/* Style pour centrer le contenu */
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style pour les rooms avec texte taille réduite */
+.rooms-container {
+    font-size: 24px; /* Réduit par rapport à l'original de 32px */
+}

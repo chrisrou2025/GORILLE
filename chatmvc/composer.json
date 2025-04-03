@@ -1,0 +1,26 @@
+{
+    "name": "blocdroid/chatmvc",
+    "description": "Building a chat MVC Application",
+    "require": {
+        "php": ">=8.2",
+        "another-vendor/package": "1.*",
+        "ext-pdo": "*"
+    },
+    "authors": [
+        {
+            "name": "Laurent B",
+            "email": "contact@blocdroid.com",
+            "homepage": "https://blocdroid.com",
+            "role": "Developer"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src/",
+            "MyApp\\Config\\": "config/"
+        }
+    }
+}
